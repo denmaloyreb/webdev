@@ -183,13 +183,14 @@ a {
 
 .cummunity {
     min-height: 504px;
-    background: #F5F6F7;
 }
 
 .community__wrapper {
     padding-top: 102px;
     display: flex;
     justify-content: flex-end;
+    background: #F5F6F7;
+    min-height: 504px;
 }
 
 .community__info {
@@ -244,4 +245,14 @@ a {
 
 .community__slider-slide {
     margin-left: 30px;
+}
+
+.implement__wrapper {
+    max-width: 1016px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    margin-left: 269px;
+    padding-bottom: 140px;
 }
