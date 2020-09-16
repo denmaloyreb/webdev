@@ -50,6 +50,7 @@ a {
 
 .container {
     max-width: 1600px;
+    margin: 0 auto;
 }
 
 .header {}
@@ -118,6 +119,10 @@ a {
 }
 
 .header__content-button {
+    margin-bottom: -7px;
+}
+
+.get-button {
     background: #00AFDB;
     width: 184px;
     height: 46px;
@@ -128,7 +133,6 @@ a {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
-    margin-bottom: -7px;
 }
 
 .header__social-buttons {
@@ -138,6 +142,106 @@ a {
     margin: 191px auto;
 }
 
-.header__button {}
+.rapresent {
+    min-height: 718px;
+}
 
-.header__social-img {}
+.rapresent__wrapper {
+    max-width: 1061px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px auto 140px;
+}
+
+.rapresent__collumn {
+    min-height: 239px;
+}
+
+.rapresent__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    max-width: 370px;
+    height: 57px;
+}
+
+.rapresent__text {
+    max-width: 407px;
+    color: #4E4E4E;
+    margin-top: 22px;
+}
+
+.rapresent__button {
+    display: block;
+    margin-top: 32px;
+}
+
+.cummunity {
+    min-height: 504px;
+    background: #F5F6F7;
+}
+
+.community__wrapper {
+    padding-top: 102px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.community__info {
+    margin-top: 54px;
+    margin-right: 108px;
+}
+
+.community__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+    max-width: 170px;
+    margin-top: 14px;
+}
+
+.community__text {
+    margin-top: 14px;
+}
+
+.community__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.community__text {
+    max-width: 298px;
+    min-height: 80px;
+    text-align: center;
+}
+
+.community__slider-navigation {
+    max-width: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 576px;
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 18px;
+    margin-top: -23px;
+}
+
+.community__slider-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.community__slider-slide {
+    margin-left: 30px;
+}
