@@ -343,3 +343,101 @@ label:hover {
 label {
     cursor: pointer;
 }
+
+.download__wrapper {
+    background: #F5F6F7;
+    min-height: 468px;
+    padding-top: 119px;
+}
+
+.download__content {
+    max-width: 483px;
+    margin: auto;
+}
+
+.dowload__title {
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.download__text {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.download__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 38px;
+}
+
+.apple__button-wrapper {
+    display: flex;
+}
+
+.apple-button {
+    max-width: 128px;
+    padding-left: 19px;
+    padding-right: 2px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.apple-logo {
+    width: 60px;
+    padding-left: 22px;
+    background: #009CC2;
+    padding-right: 37px;
+    position: relative;
+}
+
+.apple-logo::before {
+    content: '';
+    position: absolute;
+    background-image: url('assets/icon-apple.svg');
+    width: 15.97px;
+    height: 18.25px;
+}
+
+.google-button {
+    max-width: 128px;
+    padding-right: 2px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.google__button-wrapper {
+    display: flex;
+    margin-right: 37px;
+}
+
+.google-button {
+    max-width: 128px;
+    padding-left: 17px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.google-logo {
+    width: 60px;
+    padding-left: 22px;
+    background: #009CC2;
+    padding-right: 37px;
+    position: relative;
+}
+
+.google-logo::before {
+    content: '';
+    position: absolute;
+    background-image: url('assets/icon-android.svg');
+    width: 20px;
+    height: 23px;
+    bottom: 10px;
+    left: 17px;
+}
