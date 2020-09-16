@@ -53,8 +53,6 @@ a {
     margin: 0 auto;
 }
 
-.header {}
-
 .header {
     margin: 0 auto;
     max-width: 1600px;
@@ -123,6 +121,7 @@ a {
 }
 
 .get-button {
+    display: block;
     background: #00AFDB;
     width: 184px;
     height: 46px;
@@ -248,11 +247,27 @@ a {
 }
 
 .implement__wrapper {
-    max-width: 1016px;
+    max-width: 953px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 120px;
     margin-left: 269px;
     padding-bottom: 140px;
+}
+
+.implement__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-top: -4px;
+    margin-bottom: 20px;
+}
+
+.implement__text {
+    max-width: 407px;
+    margin-bottom: 32px;
 }
