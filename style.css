@@ -66,7 +66,7 @@ h2 {
 .header {
     margin: 0 auto;
     max-width: 1600px;
-    min-height: 745px;
+    min-height: 742px;
     background-image: url('assets/bg-image.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,22 +76,32 @@ h2 {
 .header__menu {
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 100;
     font-size: 14px;
     line-height: 140%;
 }
 
 .header__menu-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    max-width: 675px;
+    max-width: 595px;
     margin: auto;
-    padding-top: 25px;
+    padding-top: 23px;
+}
+
+.header__menu-item--active {
+    font-weight: normal;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .header__menu-link {
     color: #FFFFFF;
+    transition: all .3s;
+}
+
+.header__menu-link:hover {
+    color: aqua;
 }
 
 .header__content {
@@ -100,7 +110,7 @@ h2 {
     align-items: center;
     justify-content: space-between;
     height: 208px;
-    margin-top: 160px;
+    padding-top: 155px;
 }
 
 .header__content-title {
@@ -124,10 +134,11 @@ h2 {
     text-align: center;
     color: #FFFFFF;
     max-width: 505px;
+    margin-top: 22px;
 }
 
 .header__content-button {
-    margin-bottom: -7px;
+    margin-top: 29px;
 }
 
 .get-button {
@@ -142,13 +153,22 @@ h2 {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
+    transition: all .3s;
+}
+
+.get-button:hover {
+    background: #009CC2
 }
 
 .header__social-buttons {
     display: flex;
     justify-content: space-between;
     width: 170px;
-    margin: 191px auto;
+    margin: 183px auto;
+}
+
+.header__social-img:hover {
+    transform: scale(1.2);
 }
 
 .rapresent {
@@ -188,7 +208,7 @@ h2 {
 }
 
 .community__wrapper {
-    padding-top: 102px;
+    padding-top: 105px;
     display: flex;
     justify-content: flex-end;
     background: #F5F6F7;
@@ -240,6 +260,16 @@ h2 {
     margin-top: -23px;
 }
 
+.prev-arrow,
+.next-arrow {
+    cursor: pointer;
+}
+
+.prev-arrow:hover,
+.next-arrow:hover {
+    transform: scale(1.2);
+}
+
 .community__slider-items {
     display: flex;
     justify-content: space-between;
@@ -255,7 +285,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 123px;
     margin-left: 269px;
     padding-bottom: 140px;
 }
@@ -313,6 +343,11 @@ h2 {
     border: none;
     background: #00AFDB;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.submit:hover {
+    background: #009CC2;
 }
 
 .label {
@@ -398,7 +433,7 @@ label {
     position: absolute;
     background-image: url('assets/icon-apple.svg');
     width: 15.97px;
-    height: 18.25px;
+    height: 20px;
 }
 
 .google-button {
@@ -440,4 +475,53 @@ label {
     height: 23px;
     bottom: 10px;
     left: 17px;
+}
+
+.footer__wrapper {
+    color: #FFFFFF;
+    background: #000000;
+    min-height: 184px;
+    font-weight: 100;
+}
+
+.footer__inner {
+    max-width: 1283px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 59px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__menu-list {
+    display: flex;
+    width: 236px;
+    justify-content: space-between;
+}
+
+.footer__menu-item {
+    position: relative;
+}
+
+.footer__menu-item::before {
+    content: "|";
+    position: absolute;
+    right: -23px;
+}
+
+.item-none::before {
+    content: none;
+}
+
+.footer__menu-link {
+    color: #FFFFFF;
+    transition: all .2s;
+}
+
+.footer__menu-link:hover {
+    color: aquamarine;
+}
+
+.footer__logo-link {
+    padding-right: 64px;
 }
