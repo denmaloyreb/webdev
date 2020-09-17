@@ -355,33 +355,24 @@ h2 {
     background: #009CC2;
 }
 
-.label {
+.signup__form-container {
     position: relative;
 }
 
-input[type=checkbox] {
-    display: none;
-}
-
-input[type=checkbox]+label {
-    position: relative;
-}
-
-input[type=checkbox]+label:after {
-    content: url(assets/fa-check.svg);
+.signup__form-container::after {
+    content: '';
+    background-image: url('assets/fa-check.png');
+    background-repeat: no-repeat;
     width: 19px;
     height: 16.52px;
     position: absolute;
     right: 22px;
-    top: 3px;
-}
-
-label:hover {
-    display: none;
-}
-
-label {
+    top: 15px;
     cursor: pointer;
+}
+
+.signup__form-container:hover:after {
+    transform: scale(0.3);
 }
 
 .download__wrapper {
@@ -480,6 +471,11 @@ label {
     height: 23px;
     bottom: 10px;
     left: 17px;
+}
+
+.google-logo:hover::before,
+.apple-logo:hover::before {
+    transform: scale(0.3);
 }
 
 .footer__wrapper {
