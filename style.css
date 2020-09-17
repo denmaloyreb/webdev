@@ -213,6 +213,7 @@ h2 {
     justify-content: flex-end;
     background: #F5F6F7;
     min-height: 504px;
+    overflow-x: hidden;
 }
 
 .community__info {
@@ -273,6 +274,10 @@ h2 {
 .community__slider-items {
     display: flex;
     justify-content: space-between;
+}
+
+.community__slider {
+    margin-right: -386px;
 }
 
 .community__slider-slide {
